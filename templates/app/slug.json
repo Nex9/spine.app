@@ -4,8 +4,9 @@
   },
 
   "routes": [
-    { ""        : "./public" },
-    { "/test"    : "./test/public" }
+    { ""       : "./public" },
+    { "/test"  : "./test/public" },
+    { ""       : { "host": "127.0.0.1", "port": 8080, "hostPath": "", "patchRedirect": true } }
   ],
 
   "packages": {
